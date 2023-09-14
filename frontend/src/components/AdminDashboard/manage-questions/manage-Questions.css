@@ -1,0 +1,88 @@
+.crud-questions-body{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.styled-table{
+    border-collapse: collapse;
+    margin: 10px auto;
+    font-size: 17px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: #eee;
+}
+
+.styled-table thead tr{
+    background-color: #1d125d;
+    color: #eee;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td{
+    padding: 15px 20px;
+}
+.audio{
+    width: 200px;
+}
+.btn-add-question{
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 8px;
+    color: #eee;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #005bff;
+}
+.btn-updateAnswer{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 8px;
+    color: #eee;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn-showAnswers{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 8px;
+    color: #eee;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #125d22;
+}
+.btn-showAnswers:hover{
+    box-shadow:1px 5px 7px 1px rgba(0,0,0,0.2);
+    background-color: #0d4018;
+}
+.btn-delete{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 8px;
+    color: #eee;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(174, 0, 0);
+}
+.btn-delete:hover{
+    box-shadow:1px 5px 7px 1px rgba(0,0,0,0.2);
+    background-color: red;
+}

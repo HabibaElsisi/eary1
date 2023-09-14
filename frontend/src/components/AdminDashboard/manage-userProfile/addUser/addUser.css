@@ -1,0 +1,60 @@
+.addUser-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.addUser-card{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.form-input-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.form-input-container input{
+    text-align: center;
+    font-size: 16px;
+    color: #1d125d;
+}
+
+.addUser-card input{
+    width: 400px;
+    height: 40px;
+}
+.status-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 250px;
+    gap: 10px;
+}
+.status-container input{
+    width: 200px;
+    height: 40px;
+}
+.submit-goback-container{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.submit-goback-container input{
+    width: 150px;
+    border-radius: 10px;
+    margin: 10px 0;
+    background-color: #005bff;
+    color: #eee;
+    cursor: pointer;
+    border: none;
+    transition: 0.4s ease-in-out;
+}
+.submit-goback-container input:hover{
+    box-shadow:1px 5px 7px 1px rgba(0,0,0,0.2);
+    background-color: #014ad1;
+}

@@ -1,0 +1,16 @@
+.inActive-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.inActive-container img{
+    width: 600px;
+    margin-bottom: 40px;
+}
+.inActive-container h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: #005bff;
+}

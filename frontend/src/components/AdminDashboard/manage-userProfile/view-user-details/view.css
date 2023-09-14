@@ -1,0 +1,50 @@
+.view-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.user-details-header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.user-pic{
+    margin-right: 15px;
+    width: 100px;
+}
+.user-details-container{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+.user-details-container button{
+    font-size: 18px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #005bff;
+    color: #eee;
+    cursor: pointer;
+    border: none;
+    transition: 0.4s ease-in-out;
+}
+.single-detail-container{
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+.single-detail-container h3{
+    font-size: 20px;
+}
+.single-detail-container span{
+    font-size: 16px;
+}

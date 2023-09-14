@@ -1,0 +1,85 @@
+.crud-users-body{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.styled-table{
+    border-collapse: collapse;
+    margin: 10px auto;
+    font-size: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: #eee;
+}
+
+.styled-table thead tr{
+    background-color: #1d125d;
+    color: #eee;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td{
+    padding: 15px 20px;
+}
+.btn-add-user{
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 8px;
+    color: #eee;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #005bff;
+}
+.btn-edit{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 8px;
+    color: #eee;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn-view{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 8px;
+    color: #eee;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #1d125d;
+}
+.btn-view:hover{
+    box-shadow:1px 5px 7px 1px rgba(0,0,0,0.2);
+    background-color: #2e208b;
+}
+.btn-delete{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 8px;
+    color: #eee;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(174, 0, 0);
+}
+.btn-delete:hover{
+    box-shadow:1px 5px 7px 1px rgba(0,0,0,0.2);
+    background-color: red;
+}

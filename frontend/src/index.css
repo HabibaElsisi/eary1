@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    /* background-image: url(images/abstract-smoth-blue-motion-lines-background.jpg); */
+    /* background-image: url(images/abstract_website_landing_page_with_flowing_blue_lines_design_2805.jpg); */
+    background-image: url(images/1409.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+

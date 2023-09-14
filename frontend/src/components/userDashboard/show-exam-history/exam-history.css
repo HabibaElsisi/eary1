@@ -1,0 +1,35 @@
+.history-body{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.history-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #005bff;
+    width: 400px;
+    height: 70px;
+    border-radius: 5px;
+    margin: 10px;
+    color: #eee;
+}
+.history-styled-table{
+    border-collapse: collapse;
+    margin: 10px auto;
+    font-size: 26px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: #eee;
+}
+
+.history-styled-table thead tr{
+    background-color: #1d125d;
+    color: #eee;
+    text-align: left;
+}
+.history-styled-table th,
+.history-styled-table td{
+    padding: 15px 20px;
+}
